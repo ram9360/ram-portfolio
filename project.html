@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-blue-300 rounded-3xl mt-1">
+      <div class="logo">
+        <a href="./index.html"><img src="./img/sr.png" class="h-10 w-10 mb-2 ml-1 mt-2" alt=""/></a>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./project.html">Project</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+    <div class="flex flex-col">
+      <div>
+        <h1 class="tracking-in-expand text-center text-blue-600 text-5xl mt-7 mr-3 ml-3 mb-3">My Projects</h1>
+      </div>
+      <div class="flex flex-col justify-between space-y-5 align-middle">
+        <div class="flex flex-col w-full ml-2">
+          <h1 class="title1 text-3xl underline italic">Project 1</h1>
+          <h1 class="h-pro m-3 mt-0 text-center">BLOOD BANK MANAGEMENT SYSTEM</h1>
+          <div class="flex">
+            <img src="./img/Picture1.jpg" class="project1 h-80 w-80 rounded-xl" alt="project1"/>
+            <div class="p-5 flex flex-col justify-center">
+              <p class="p-para">Blood Bank Management System is an online information system will efficiently manage blood donation processes, utilizing distributed client-server computing. With a user-friendly interface, donors and organisations streamlines Access to blood during urgent needs. This Project aims to provide a vital service in time of critical blood shortages.</p>
+              <div class="flex justify-center ">
+                <a href="https://github.com/ram9360/Blood_Bank-2" class="p-1 flex rounded-full hover:bg-blue-400">Github Link<img src="./img/github-142-svgrepo-com.svg" class="h-5" /></a>
+              </div>
+              <h1 class="h-using">Using Languages</h1>
+              <p class="p-para">HTML, CSS(BootStrap), JAVASCRIPT, SQL, PHP</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col ml-2">
+          <h1 class="title1 text-3xl underline italic">Project 2</h1>
+          <h1 class="h-pro m-3 mt-0 text-center">DEFENSIVE STRATEGY AGAINST RANSOMWARE THREAT</h1>
+          <div class="flex">
+            <img src="./img/project 2 Picture1.jpg" class="project2 h-80 w-80 rounded-xl" alt="project"/>
+            <div class="p-5 flex flex-col justify-center">
+              <p class="p-para">To develop a Proactive defensive strategy against the ransomware threat, Leveraging “Rangan” for early detection and “Hash Conceal” for data protection. These technology form a robust defense, ensuring rapid threat identification and minimizing data loss.</p>
+              <div class="flex justify-center">
+                <a href="https://github.com/ram9360/ransomware-final-year"class="p-1 flex rounded-full hover:bg-blue-400">Github Link<img src="./img/github-142-svgrepo-com.svg" class="h-5" /></a>
+              </div>
+              <h1 class="h-using">Using Languages</h1>
+              <p class="p-para">HTML, CSS(BootStrap), JAVASCRIPT, SQL, PHP, Python</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col ml-2">
+          <h1 class="title1 text-3xl underline italic">Project 3</h1>
+          <h1 class="h-pro m-3 mt-0 text-center">MY PORTFOLIO SITE</h1>
+          <div class="flex">
+            <img src="./img/portfolio.PNG" class="project2 h-80 w-80 rounded-xl"alt="portfolio"/>
+            <div class="p-5 lex flex-col justify-center">
+              <p class="p-para">Designed and developed a simple portfolio website to showcase my skills and projects. Utilized HTML for structuring content and ensuring semantic clarity. Employed Tailwind CSS for responsive design and efficient styling. Integrated JavaScript for interactive elements and user engagement. Included sections for an introduction, project highlights, and a contact form. This project demonstrates my proficiency in modern web development technologies.</p>
+              <div class="flex justify-center">
+                <a href="https://github.com/ram9360/ram-portfolio"class="p-1 flex rounded-full hover:bg-blue-400">Github Link <img src="./img/github-142-svgrepo-com.svg" class="h-5" /></a>
+              </div>
+              <h1 class="h-using">Using Languages</h1>
+              <p class="p-para">HTML, CSS(Tailwind CSS),JAVASCRIPT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menu = document.querySelector(".menu");
+      const menuList = document.querySelector("nav ul");
+      menu.addEventListener("click", () => {
+        menuList.classList.toggle("showmenu");
+      });
+    </script>
+  </body>
+</html>

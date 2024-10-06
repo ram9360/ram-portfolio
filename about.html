@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-blue-300 rounded-3xl mt-1">
+        <div class="logo">
+            <a href="#home"><img src="./img/sr.png" class="h-10 w-10 mb-2 ml-1 mt-2" alt=""></a>
+        </div>
+        <ul>
+            <li> <a href="./index.html">Home</a></li>
+            <li> <a href="./about.html">About</a></li>
+            <li> <a href="./project.html">Project</a></li>
+            <li> <a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <div class="flex sm:flex-col md:flex-row lg:flex-row">
+        <div class="flex flex-col ">
+            <h1 class="tracking-in-expand text-center text-blue-600 text-5xl mt-7 mr-3 ml-3 mb-3">Who I Am and What I Do ?</h1>
+            <p class="text-justify text-black text-2xl m-4">I recently completed my Bachelor's degree in <span>Computer Science and Engineering</span>  from Krishnaswamy College of Engineering and Technology, Cuddalore. I aim to acquire expertise as a <span>front-end developer</span> and I Want to join a career in the IT field Jobs. To enhance my skills, I was undergone the <span>inplant training at the Telephone Exchange, Cuddalore.</span> Furthermore, I presented a research paper titled <span>"Defensive Strategy Against Ransomware Threats"</span>  at the <span>5th International Conference on Veracity Research in Scientific Computing and Engineering Trends</span>, organized by VRS College of Engineering and Technology, Arasur. Notably, our team's project proposal was selected and funded under the <span>Tamil Nadu State Council for Science and Technology's Student Project Scheme (2023-2024)</span> at DOTE Campus, Chennai.</p>
+        </div>
+    </div>
+
+
+
+
+<script>
+    const menu = document.querySelector('.menu');
+    const menuList = document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu');
+    });
+</script>
+   
+</body>
+</html>
