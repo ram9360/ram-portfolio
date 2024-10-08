@@ -134,3 +134,14 @@ span{
     font-weight: 700;
     text-decoration: underline;
 }
+
+.connect1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslateblue;
+    font-weight: bolder;
+}
+.connect2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslateblue;
+    font-weight:500;
+}
